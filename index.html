@@ -1,181 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+	<meta charset="utf-8">
+	<title>Somtida | Full Stack Developer</title>
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=Edge"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
 
-    
-    <title>Somtida</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/clean-blog.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <script type = "text/javascript"
-         src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        
-    <script type = "text/javascript" 
-         src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
-    
-    <script>
-        $(document).ready(function(){
-            $(".bar").effect("shake", {time:4}, 1000);
-
-    });
-    </script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/et-line-font.css">
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
 </head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
-<body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                
-                <a class="navbar-brand bar" href="#"><i class="fa fa-quote-left fa-lg fa-pull-left fa-border"></i> S.SKNS
-                </a>
-            </div>
+<!-- navigation section -->
+<section class="navbar navbar-fixed-top custom-navbar" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#" class="bar">Home</a>
-                    </li>
-                    <li>
-                        <a href="#" class="bar">About</a>
-                    </li>
-                    <li>
-                        <a href="#" class="bar">STUFF I DO</a>
-                    </li>
-                    <li>
-                        <a href="#" class="bar">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+			<a href="#" class="navbar-brand"><i class="fa fa-quote-left fa-pull-left fa-border"></i> S.SKNS</a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#home" class="smoothScroll">HOME</a></li>
+				<li><a href="#about" class="smoothScroll">ABOUT</a></li>
+				<li><a href="#portfolio" class="smoothScroll">PORTFOLIO</a></li>
+				<li><a href="#blog" class="smoothScroll">BLOG</a></li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<!-- home section -->
+<section id="home" class="intro-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-8 col-xs-offset-2 col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="site-heading">
+          <h1 class="nameHeadshot wow bounceIn">Somtida</h1>
+					<h1 class="nameHeadshot wow bounceIn">Sinkamnoonsak</h1>
+          <hr>
+
+          <span class="subheading">Full Stack Developer</span>
+          <br/>
+          <ul class="list-inline">
+              <li>
+                  <a href="https://www.linkedin.com/in/somtida-sinkamnoonsak-b40949101" class="btn btn-primary btn-linkedin" role="button" target="_blank"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+              </li>
+              <li>
+                  <a href="https://github.com/Somtida" class="btn btn-info btn-github" role="button" target="_blank"><i class="fa fa-github fa-fw fa-2x"></i></a>
+              </li>
+              <li>
+                  <a href="mailto:somtida.th@gmail.com" class="btn btn-danger btn-google" role="button" target="_blank"><i class="fa fa-envelope-o fa-2x"></i></a>
+              </li>
+          </ul>
+					<br>
+					<br>
+					<a href="#about" class="smoothScroll"><i class="fa fa-chevron-down fa-2x animated infinite bounce arrow"></i></a>
         </div>
-        <!-- /.container -->
-    </nav>
+	    </div>
+		</div>
+	</div>
+</section>
 
-    <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('https://pixabay.com/static/uploads/photo/2015/09/05/23/28/coding-926242_960_720.jpg')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1  style="color: #ffa500;">Somtida</h1><h1 class="text-right" style="color:#ffa500;float: right; display: inline;">Sinkamnoonsak</h1>
-                        <hr class="intro-divider" style="clear: both;">
-                        
-                        <span class="subheading">Full Stack Developer</span>
-                        <br/>
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://www.linkedin.com/in/somtida-sinkamnoonsak-b40949101" class="btn btn-primary btn-linkedin" role="button" target="_blank"><i class="fa fa-linkedin fa-fw"></i> Linkedin</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/Somtida" class="btn btn-info btn-github" role="button" target="_blank"><i class="fa fa-github fa-fw"></i> Github</a>
+<!-- about section -->
+<section id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 text-center">
+				<div class="section-title">
+					<h1 class="heading bold">About Me</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-6 col-sm-12 text-center">
+				<!-- <img src="images/about-img.jpg" class="img-responsive" alt="about img"> -->
+				<h2>Skills</h2>
+				<span>
+					<h3>Expert</h3>
+					<progress class="progress progress-info" value="85" max="100"></progress>
+					<p>JavaScript | JQuery | AJAX | HTML | Bootstrap | CSS | AngularJS | Ionic | Bower</p>
+				</span>
+				<span>
+					<h3>Proficient</h3>
+					<progress class="progress progress-warning" value="75" max="100"></progress>
+					<p>Node | NPM | Express | PHP | MongoDB | MYSQL | SQLite | RESTful API’s</p>
+				</span>
+				<span>
+					<h3>Exposure</h3>
+					<progress class="progress progress-warning" value="65" max="100"></progress>
+					<p>Git | Mocha | Gulp | Python | C++ | Ruby</p>
+				</span>
 
-                            </li>
-                            <li>
-                                <a href="mailto:somtida.th@gmail.com" class="btn btn-danger btn-google" role="button" target="_blank"><i class="fa fa-envelope-o"></i> mail</a>
-                            </li>
-                        </ul>
-                    </div>
-                    
 
-                    
-                </div>
-            </div>
-        </div>
-    </header>
+			</div>
+			<div class="col-xs-12 col-md-6 col-sm-12 text-center">
+				<div class="row">
+					<div class="col-xs-12 col-md-12 text-center">
+						<img class="img-circle mypicture" src="images/i.jpg" alt="me">
+					</div>
+				</div>
+				<h1 class="heading bold">Full Stack Developer</h1>
+				<p>My name is Somtida Sinkamnoonsak. I'm a full stack developer. </p>
 
-    <!-- Main Content -->
-    <!-- <div class="container"> 
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo maxime ipsa, praesentium doloribus placeat recusandae. 
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Odit eos omnis, nemo tenetur consequatur nesciunt iste libero rem. Provident, quidem id eveniet laboriosam.
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">SSkns</a> on May 26, 2016</p>
-                </div>
-                <hr>
-                
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero voluptate, veniam aliquid sequi modi, deserunt. 
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Repellendus voluptatibus, expedita, saepe fugit corporis eligendi! Voluptate dolore pariatur eos non expedita odit reprehenderit.
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">SSkns</a> on April 8, 2016</p>
-                </div>
-                <hr>
-                
-            </div>
-        </div>
-    </div> 
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-    <hr> -->
+<!-- portfolio section -->
+<div id="portfolio">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<div class="section-title">
+					<h1 class="heading bold">MY PORTFOLIO</h1>
+					<hr>
+				</div>
+				<!-- ISO section -->
+				<div class="iso-section">
+					<ul class="filter-wrapper clearfix">
+                   		 <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
+                   		 <li><a href="#" class="opc-main-bg" data-filter=".html">HTML</a></li>
+                   		 <li><a href="#" class="opc-main-bg" data-filter=".photoshop">Photoshop</a></li>
+                    	 <li><a href="#" class="opc-main-bg" data-filter=".wordpress">Wordpress</a></li>
+                    	 <li><a href="#" class="opc-main-bg" data-filter=".mobile">Mobile</a></li>
+               		</ul>
+               		<div class="iso-box-section wow fadeIn" data-wow-delay="0.9s">
+               			<div class="iso-box-wrapper col4-iso-box">
 
-    <!-- Footer -->
-    <!-- <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <ul class="list-inline text-center">
-                        <li>
-                            <a href="https://www.linkedin.com/in/somtida-sinkamnoonsak-b40949101">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Somtida">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                    
-                </div>
-            </div>
-        </div>
-    </footer> -->
+               				 <div class="iso-box html wordpress mobile col-lg-4 col-md-4 col-sm-6">
+               				 	<a href="images/portfolio-img1.jpg"><img src="images/portfolio-img1.jpg" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">
+               				 	<a href="images/portfolio-img2.jpg"><img src="images/portfolio-img2.jpg" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box html mobile col-lg-4 col-md-4 col-sm-6">
+               				 	<a href="images/portfolio-img3.jpg"><img src="images/portfolio-img3.jpg" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">
+               				 	<a href="images/portfolio-img4.jpg"><img src="images/portfolio-img4.jpg" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box html photoshop col-lg-4 col-md-4 col-sm-6">
+               				 	<a href="images/portfolio-img5.jpg"><img src="images/portfolio-img5.jpg" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box photoshop col-lg-4 col-md-4 col-sm-6">
+               				 	<a href="images/portfolio-img6.jpg"><img src="images/portfolio-img6.jpg" alt="portfolio img"></a>
+               				 </div>
+
+               			</div>
+               		</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- blog section -->
+<section id="blog">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<div class="section-title">
+					<h1 class="heading bold text-center">STUFF I DO</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+				<i class="icon-cloud medium-icon"></i>
+					<h3>WEB MARKETING</h3>
+					<hr>
+					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu sunt in culpa qui officia.</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
+				<i class="icon-mobile medium-icon"></i>
+					<h3>UI &amp; UX DESIGN</h3>
+					<hr>
+					<p>Digital Team is free responsive Bootstrap v3.3.5 layout from <a rel="nofollow" href="http://www.tooplate.com" target="_parent">Tooplate</a>. Images are from <a rel="nofollow" href="http://pixabay.com" target="_parent">Pixabay</a> free photo website.</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
+				<i class="icon-laptop medium-icon"></i>
+					<h3>ECOMMERCE</h3>
+					<hr>
+					<p>You can edit and use this template for your websites. Please tell your friends about Tooplate. Thank you for visiting our website.</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
+				<i class="icon-compass medium-icon"></i>
+					<h3>MOBILE APP</h3>
+					<hr>
+					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu sunt in culpa qui officia.</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
+				<i class="icon-chat medium-icon"></i>
+					<h3>SOCIAL MEDIA</h3>
+					<hr>
+					<p>You can easily change icons by looking at <a href="https://www.elegantthemes.com/blog/resources/how-to-use-and-embed-an-icon-font-on-your-website" target="_blank">ET Line Icons</a>. Excepteu sunt in culpa qui officia. Duis aute irure dolor in reprehenderit.</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
+				<i class="icon-browser medium-icon"></i>
+					<h3>RESPONSIVE LAYOUT</h3>
+					<hr>
+					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu sunt in culpa qui officia.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- footer section -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<p>Copyright © 2016 Somtida Sinkamnoonsak.</p>
+				<ul class="social-icon">
+					<li><a href="https://github.com/Somtida" class="fa fa-github wow fadeIn" data-wow-delay="0.3s"></a></li>
+					<li><a href="https://www.linkedin.com/in/somtida-sinkamnoonsak-b40949101" class="fa fa-linkedin wow fadeIn" data-wow-delay="0.9s"></a></li>
+					<li><a href="https://twitter.com/AmySkns" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
+					<li><a href="mailto:somtida.th@gmail.com" target="_blank" class="fa fa-envelope-o wow fadeIn" data-wow-delay="0.9s"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/imagesloaded.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
 </body>
-
 </html>
