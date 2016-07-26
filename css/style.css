@@ -259,6 +259,35 @@ hr {
 }
 
 /* =================== portfolio section ===================*/
+.hover-bg .hover-text {
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+	color: #ff9933;
+	background: #eee;
+	padding: 25% 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0.4;
+	transition: all 0.5s;
+}
+.hover-bg .hover-text>h3, .hover-bg .hover-text>small {
+	opacity: 0;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	transition: all 0.3s;
+}
+.hover-bg:hover .hover-text>h3, .hover-bg:hover .hover-text>small {
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.hover-bg:hover .hover-text {
+	opacity: 1;
+}
+/*test*/
 #portfolio {
   background-color: #f6f6f6;
   text-align: center;
@@ -273,7 +302,7 @@ hr {
   transition: all 0.4s ease-in-out;
 }
 #portfolio img:hover {
-  opacity: 0.5;
+  opacity: 0.2;
 }
 /* FILTER CSS */
 .filter-wrapper {
