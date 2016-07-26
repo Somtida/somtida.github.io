@@ -125,6 +125,15 @@ hr {
 }
 
 
+/* =============== resume modal section =================*/
+.modalLink{
+  cursor: pointer;
+}
+.myModal{
+  display: block;
+  padding-left: 0px;
+}
+
 /* =============== home section =================*/
 
 
@@ -259,6 +268,10 @@ hr {
 }
 
 /* =================== portfolio section ===================*/
+.img-Port{
+  width: 386px;
+  height: 257px;
+}
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
