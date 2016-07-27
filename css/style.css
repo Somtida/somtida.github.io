@@ -45,6 +45,7 @@ hr {
   border-color: #CCC;
 }
 
+
 .section-title strong {
 	color: #00C6D7;
   	font-size: 56px;
@@ -62,7 +63,7 @@ hr {
   font-size: 32px !important;
 }
 
-#work,#about, #team,
+#blog,#about, #team,
 #portfolio, #pricing, #contact {
    padding-top: 100px;
   padding-bottom: 100px;
@@ -87,8 +88,8 @@ hr {
     color: #fff;
     }
 .custom-navbar .nav li a {
-    color: #ffffff;
-    font-size: 14px;
+    color: #fff;
+    font-size: 16px;
     font-weight: 500;
     }
 .custom-navbar .nav li a:hover {
@@ -197,22 +198,22 @@ hr {
   color: #ffa500;
 }
 
-/* =============== work section ======================*/
+/* =============== blog section ======================*/
 
 
-#work {
+#blog {
     text-align: center;
 }
-#work .col-md-4 {
+#blog .col-md-4 {
   padding: 28px;
   position: relative;
   transition: all 0.4s ease-in-out;
 }
-#work .col-md-4:hover {
+#blog .col-md-4:hover {
   background-color: #ffffff;
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
 }
-#work h3 {
+#blog h3 {
   font-size: 18px;
 }
 
@@ -380,55 +381,6 @@ hr {
   width: 100%;
   display: block;
 }
-
-/* ================== contact section ====================*/
-#contact {
-  background: #3B3B3B url('../images/contact-bg.jpg') no-repeat center center;
-  background-size: cover;
-  color: #ffffff;
-}
-#contact h2 {
-  padding-bottom: 20px;
-}
-#contact h3 {
-  font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-#contact .medium-icon {
-  padding-top: 10px;
-  padding-right: 10px;
-}
-#contact .contact-info div {
-  padding-top: 14px;
-  padding-bottom: 14px;
-}
-#contact form {
-  padding-top: 60px;
-}
-#contact .form-control {
-  border: 2px solid #ffffff;
-  border-radius: 0;
-  box-shadow: none;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  transition: all 0.4s ease-in-out;
-}
-#contact input {
-  height: 40px;
-}
-#contact input[type="submit"] {
-  background: #00c6d7;
-  border: 3px solid #00c6d7;
-  letter-spacing: 1px;
-  margin-top: 18px;
-  height: 50px;
-  color: #ffffff;
-}
-#contact input[type="submit"]:hover {
-  color: #000000;
-}
-
 
 /* =================== footer section ================= */
 footer {
