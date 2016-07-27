@@ -266,7 +266,10 @@ hr {
   margin-left: auto;
   margin-right: auto;
 }
-
+.hilight{
+  color: #ff9933;
+  font-size: 17px;
+}
 /* =================== portfolio section ===================*/
 .img-Port{
   width: 386px;
@@ -278,19 +281,19 @@ hr {
 	margin: 0 auto;
 	color: #ff9933;
 	background: #eee;
-	padding: 25% 0;
+	padding: 20% 0;
 	height: 100%;
 	width: 100%;
-	opacity: 0.4;
+	opacity: 0;
 	transition: all 0.5s;
 }
-.hover-bg .hover-text>h3, .hover-bg .hover-text>small {
+.hover-bg .hover-text>h3,h5,a,small{
 	opacity: 0;
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);
 	transition: all 0.3s;
 }
-.hover-bg:hover .hover-text>h3, .hover-bg:hover .hover-text>small {
+.hover-bg:hover .hover-text>h3,h5,a,small {
 	opacity: 1;
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: translateY(0);
@@ -314,9 +317,7 @@ hr {
   width: 100%;
   transition: all 0.4s ease-in-out;
 }
-#portfolio img:hover {
-  opacity: 0.2;
-}
+
 /* FILTER CSS */
 .filter-wrapper {
     width: 100%;
