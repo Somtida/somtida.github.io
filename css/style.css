@@ -147,12 +147,12 @@ hr {
   display: flex;
   -webkit-align-items: center;
   -ms-flex-align: center;
-      align-items: center;
+    align-items: center;
   height: 100vh;
   text-align: center;
 }
 #home h1 {
-  font-size: 55px;
+  font-size: 5em;
   /*line-height: 70%;*/
 }
 #home h3 {
@@ -169,10 +169,13 @@ hr {
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 2px;
-  padding: 12px 42px;
+  padding: 12px;
   margin-top: 40px;
   margin-right: 16px;
   transition: all 0.4s ease-in-out;
+  height: 55px;
+  width: 110px;
+  text-align: center;
 }
 #home .btn:hover {
   background: #00c6d7;
@@ -196,7 +199,17 @@ hr {
 }
 .arrow{
   color: #ffa500;
+  text-align: center;
 }
+#home .btn-resume{
+  padding-top: 18px;
+  font-size: 16px;
+}
+#home .btn-mail{
+  background-color: #e91e63;
+  border-color: #e91e63;
+}
+
 
 /* =============== blog section ======================*/
 
