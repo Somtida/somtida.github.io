@@ -287,6 +287,9 @@ hr {
 .imgLogo {
   height: 50px;
 }
+.imgLg {
+  margin-right: 20px;
+}
 /* =================== portfolio section ===================*/
 .img-Port{
   width: 320px;
